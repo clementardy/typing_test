@@ -1,0 +1,19 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+    name='typing_test_ydratec'
+    version='0.2.5'
+    description='A simple typing test in a terminal.'
+    readme = "README.md"
+    authors= [{name = 'Clement Tardy', email = 'clementardy@icloud.com'}]
+    dependencies = [
+        "nltk>=3.8.1",
+        "reprint>=0.6.0"
+    ]
+
+[project.scripts]
+typing_test = "typing_test_ydratec.__main__:main"
