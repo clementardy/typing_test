@@ -17,3 +17,4 @@ build-backend = "setuptools.build_meta"
 
 [project.scripts]
 typing_test = "typing_test_ydratec.__main__:main"
+
